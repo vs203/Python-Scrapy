@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import scrapy
+import scrapy                           #just type scrapy startproject project_name followed by scrapy genspider example example.com in the terminal to create the required files.
 from ..items import LiveRatesItem
 class RatesSpider(scrapy.Spider):
     name = 'rates'
